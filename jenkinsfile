@@ -1,7 +1,7 @@
 pipeline{
  environment {
- registry = "zoerainbow/vatcal"
-        registryCredentials = "docker_hub_id"
+ registry = "username/vatcal"
+        registryCredentials = "zoerainbow/vatcal"
         dockerImage = ""
     }
     agent any
@@ -33,3 +33,4 @@ pipeline{
                 }
             }
         }
+}
