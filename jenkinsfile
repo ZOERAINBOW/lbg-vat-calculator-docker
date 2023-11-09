@@ -1,7 +1,7 @@
 pipeline{
  environment {
  registry = "username/vatcal"
-        registryCredentials = "zoerainbow/vatcal"
+        registryCredentials = "zoerainbow"
         dockerImage = ""
     }
     agent any
